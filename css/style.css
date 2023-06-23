@@ -8,3 +8,8 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+#numbers {
+    font-size:larger;
+    text-align: center;
+    padding: 50px;
+}
