@@ -12,7 +12,6 @@ function getRndInteger(min, max) {
     console.log(randomNumber, typeof randomNumber);
     randomNumber.push(singleNumber);
     numbers.innerHTML = randomNumber; 
-
   }
 
   setTimeout (myFunction, 5 * 1000);
@@ -27,7 +26,30 @@ function getRndInteger(min, max) {
     const numberFive = parseInt(prompt('Inserisci il quinto numero '));
     console.log(numberOne, numberTwo, numberThree, numberFour, numberFive);
     
+    if (randomNumber[0] === numberOne) {
+        console.log('ok');
+      
+    }
+    if (randomNumber[1] === numberTwo) {
+        console.log('ok');
+      
+    }
+    if (randomNumber[2] === numberThree) {
+        console.log('ok');
+       
+    }
+    if (randomNumber[3] === numberFour) {
+        console.log('ok');
+      
+
+    }
+    if (randomNumber[4] === numberFive) {
+        console.log('ok');
+      
+
+    }
  
+
   }
 
 
