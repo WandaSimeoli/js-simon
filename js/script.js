@@ -6,4 +6,16 @@ function getRndInteger(min, max) {
  
   const randomNumber = [];
 
+  for (let i = 0; i < 5; i++) {
+
+    const singleNumber = getRndInteger(1, 10);
+    console.log(randomNumber, typeof randomNumber);
+    randomNumber.push(singleNumber);
+    numbers.innerHTML = randomNumber; 
+
+  }
+
+
+
+
 
