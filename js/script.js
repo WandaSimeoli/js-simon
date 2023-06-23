@@ -15,6 +15,21 @@ function getRndInteger(min, max) {
 
   }
 
+  setTimeout (myFunction, 5 * 1000);
+
+  function myFunction() {
+    numbers.classList.add('d-none');
+ 
+    const numberOne = parseInt(prompt('Inserisci il primo numero '));
+    const numberTwo= parseInt(prompt('Inserisci il secondo numero '));
+    const numberThree = parseInt(prompt('Inserisci il terzo numero '));
+    const numberFour = parseInt(prompt('Inserisci il quarto numero '));
+    const numberFive = parseInt(prompt('Inserisci il quinto numero '));
+    console.log(numberOne, numberTwo, numberThree, numberFour, numberFive);
+    
+ 
+  }
+
 
 
 
